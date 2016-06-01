@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation rec {
   name    = "clang-analyzer-${version}";
-  version = "3.4";
+  version = "3.8.0";
 
   src = fetchurl {
     url    = "http://llvm.org/releases/${version}/clang-${version}.src.tar.gz";
